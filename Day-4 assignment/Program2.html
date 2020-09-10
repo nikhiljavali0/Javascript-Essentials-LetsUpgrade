@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Program - 2 : Copying the input </title>
+</head>
+<body>
+	<p style="color: Blue"> <strong>Copy the input of first filed to second</strong></p>
+Real Input : <input type="text" id="input">
+<br>
+<br>
+<button onclick="copyText()">COPY</button>
+<br>
+<br>
+Copied Input : <input type="text" id="output">
+
+  <script type = "text/javascript">
+    function copyText(){
+   document.getElementById("output").value=document.getElementById("input").value;
+} 
+  </script>  
+</body>
+</html>
+
+
+

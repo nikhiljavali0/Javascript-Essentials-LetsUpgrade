@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title> Program - 4 : two more Functions to display objects on Console with conditions </title>
+</head>
+<body>
+  <script type = "text/javascript">
+
+    let BusinessMagnets = [
+  {
+    "name": "Bill Gates",
+    "age": 64,
+    "country" : "USA",
+    "Hobbies" : ["Tennis","Reddit","Bridge"]
+  },
+  {
+    "name": "Mukesh Ambani",
+    "age": 63,
+    "country" : "INDIA",
+    "Hobbies" : ["Reading","Swimming","Jungle Adventure"]
+  },
+  {
+    "name": "Ritesh Agarwal",
+    "age": 26,
+    "country" : "INDIA",
+    "Hobbies" : ["Video Gaming","Cycling","Reading"]
+  },
+  {
+    "name": "Jack Ma",
+    "age": 56,
+    "country" : "CHINA",
+    "Hobbies" : ["Collecting Crickets","Reading","Business"]
+  }
+  ];
+
+function Display_on_Console(BusinessMagnets)
+{
+ console.log(BusinessMagnets);
+}
+Display_on_Console(BusinessMagnets);
+
+console.log("------------------------------------------");
+console.log("------------------------------------------");
+
+
+function Display_Age(BusinessMagnets)
+{
+  console.log("PEOPLE WITH AGE LESS THAN 30");
+  console.log("******************************");
+  BusinessMagnets.forEach(element => {
+    if (element.age<30) {
+      console.log(element);
+    }
+  });
+}
+Display_Age(BusinessMagnets);
+
+console.log("------------------------------------------");
+console.log("------------------------------------------");
+
+function Display_Country(BusinessMagnets)
+{
+  console.log("BUSINESS MAGNETS OF INDIA");
+  console.log("******************************");
+  BusinessMagnets.forEach(element => {
+    if (element.country == "INDIA") {
+      console.log(element);
+    }
+  });
+}
+Display_Country(BusinessMagnets);
+
+  </script>  
+</body>
+</html>
+
+
+
