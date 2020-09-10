@@ -1,1 +1,1 @@
-# Javascript-Essentials-LetsUpgrade
+# Javascript-Essentials-LetsUpgrade-Assignments
