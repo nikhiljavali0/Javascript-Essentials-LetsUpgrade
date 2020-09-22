@@ -213,6 +213,7 @@ function filter(){
     document.getElementById("minp").value="";
       document.getElementById("maxp").value="";
 }
+
 function search(){
     let str= document.getElementById("serstr").value;
     console.log(str);
